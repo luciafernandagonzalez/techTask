@@ -28,7 +28,6 @@ const PokemonCard = ({ pokemon }) => {
           {"Peso: "}
           {pokemon.weight}
         </IonItem>
-        {/* {pokemon.abilities && pokemon.abilities.nodes && ( */}
         <IonItem>
           {"Habilidades: "}
           {pokemon.skillList.map((skill, i) => (
@@ -39,7 +38,6 @@ const PokemonCard = ({ pokemon }) => {
             </span>
           ))}
         </IonItem>
-        {/* )} */}
       </IonCardContent>
     </IonCard>
   );

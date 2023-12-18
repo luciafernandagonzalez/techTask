@@ -31,7 +31,6 @@ export const fetchPokemonData = async () => {
       throw new Error("GraphQL Error:", response.data.errors);
     }
 
-    // const { data } = response.data;
     if (response.data && response.data.pokemon_v2_pokemon) {
       const parsedPokemonDetails = response.data.pokemon_v2_pokemon.map(
         (pokemonData) => {

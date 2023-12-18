@@ -10,8 +10,6 @@ import {
   IonTitle,
   IonToolbar,
 } from "@ionic/react";
-import pokemon from "../models/pokemon";
-import skill from "../models/skill";
 import PokemonCard from "./PokemonCard";
 import { fetchPokemonData } from "../services/pokemonService";
 
